@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UIEventHandleDemo</string>
+    <string name="text_Name">Name</string>
+    <string name="text_Password">Password</string>
+    <string name="text_Login">Login</string>
+
+</resources>

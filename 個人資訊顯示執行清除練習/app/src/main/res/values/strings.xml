@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application1313</string>
+    <string name="etUser">input User name</string>
+    <string name="hint_etPassword">input Password</string>
+    <string name="hint_etUser">input User name</string>
+    <string name="hint_etPhone">input phone number</string>
+    <string name="hint_etAge">input age</string>
+    <string name="text_btSubmit">Run</string>
+    <string name="text_btClear">Clear</string>
+    <string name="msg1">clear all field</string>
+    <string name="msg_ClearAllFields">clear all field</string>
+</resources>

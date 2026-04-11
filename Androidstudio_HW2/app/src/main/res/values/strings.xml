@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application_hw2</string>
+    <string name="etStart">Please input start number</string>
+    <string name="etEnd">Please input end number</string>
+    <string name="btnRun">Run</string>
+    <string name="btnClear">Clear</string>
+    <string name="msg_ClearAllField">Clear all field</string>
+</resources>

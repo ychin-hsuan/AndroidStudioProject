@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MYAPP1414</string>
+    <string name="etWeight">輸入體重(kg)</string>
+    <string name="etHeight">輸入身高(cm)</string>
+    <string name="btRun">執行</string>
+    <string name="text_btClear">清除</string>
+    <string name="msg_ClearAllField">全部清除</string>
+</resources>
