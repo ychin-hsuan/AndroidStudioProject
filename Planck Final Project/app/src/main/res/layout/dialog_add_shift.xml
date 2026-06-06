@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新增班次"
+        android:textSize="18sp"
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 選擇工作 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選擇工作"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/tv_selected_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="點擊選擇工作"
+        android:textSize="14sp"
+        android:textColor="@color/planck_purple"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- 日期選擇 -->
+    <TextView
+        android:id="@+id/et_shift_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="點擊選擇日期"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"
+        android:padding="14dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true"/>
+    <TextView
+        android:id="@+id/tv_day_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班別：平日"
+        android:textSize="12sp"
+        android:textColor="@color/planck_purple"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/et_shift_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09:00"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"
+        android:padding="14dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="12dp"
+        android:hint="上班時間"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/et_shift_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18:00"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"
+        android:padding="14dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="12dp"
+        android:hint="下班時間"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textColor="@color/text_secondary"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增"
+            android:backgroundTint="@color/planck_purple"
+            style="@style/Widget.MaterialComponents.Button"/>
+    </LinearLayout>
+</LinearLayout>

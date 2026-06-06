@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- 優先度顏色點 -->
+    <View
+        android:id="@+id/view_dot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/circle_dot"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- 事件資訊 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="事件名稱"
+            android:textSize="13sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/tv_event_meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="需要 2 小時 · 建議 14:00"
+            android:textSize="11sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <!-- 優先度 badge -->
+    <TextView
+        android:id="@+id/tv_priority_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="緊急"
+        android:textSize="10sp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/badge_red"
+        android:textColor="@color/planck_red"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Planck</string>
+    <string name="tab_today">今日</string>
+    <string name="tab_schedule">行程</string>
+    <string name="tab_todo">Todo</string>
+    <string name="tab_salary">薪資</string>
+    <string name="tab_settings">設定</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="planck_purple">#534AB7</color>
+    <color name="planck_purple_light">#EEEDFE</color>
+    <color name="planck_green">#1D9E75</color>
+    <color name="planck_green_light">#E1F5EE</color>
+    <color name="planck_orange">#EF9F27</color>
+    <color name="planck_orange_light">#FAEEDA</color>
+    <color name="planck_red">#E24B4A</color>
+    <color name="planck_red_light">#FCEBEB</color>
+    <color name="planck_dark">#26215C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#6B6880</color>
+    <color name="surface">#F6F5FF</color>
+</resources>

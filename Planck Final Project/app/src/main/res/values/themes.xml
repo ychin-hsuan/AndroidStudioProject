@@ -1,0 +1,6 @@
+<resources>
+    <style name="Base.Theme.Planck" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Planck" parent="Base.Theme.Planck"/>
+</resources>

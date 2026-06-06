@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh" android:title="重新整理"/>
+    <item android:id="@+id/menu_add_event" android:title="新增事件"/>
+    <item android:id="@+id/menu_add_todo" android:title="新增 Todo"/>
+    <item android:id="@+id/menu_settings" android:title="設定"/>
+    <item android:id="@+id/menu_about" android:title="關於 Planck"/>
+</menu>

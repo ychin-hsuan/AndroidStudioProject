@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="68dp"
+    android:height="56dp"
+    android:viewportWidth="34"
+    android:viewportHeight="28">
+    <!-- 尾巴 上擺 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M0,6 h4 v4 h-4z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M2,8 h4 v4 h-4z"/>
+    <path android:fillColor="#BDBDBD" android:pathData="M4,10 h4 v2 h-4z"/>
+    <!-- 身體 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M4,10 h18 v8 h-18z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M6,12 h14 v4 h-14z"/>
+    <!-- 頭 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M20,4 h14 v12 h-14z"/>
+    <!-- 耳朵 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M20,0 h4 v6 h-4z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M30,0 h4 v6 h-4z"/>
+    <path android:fillColor="#F48FB1" android:pathData="M20,0 h2 v4 h-2z"/>
+    <path android:fillColor="#F48FB1" android:pathData="M30,2 h2 v4 h-2z"/>
+    <!-- 眼睛 -->
+    <path android:fillColor="#212121" android:pathData="M22,6 h4 v4 h-4z"/>
+    <path android:fillColor="#212121" android:pathData="M28,6 h4 v4 h-4z"/>
+    <path android:fillColor="#424242" android:pathData="M22,6 h2 v2 h-2z"/>
+    <path android:fillColor="#424242" android:pathData="M28,6 h2 v2 h-2z"/>
+    <!-- 鼻子 -->
+    <path android:fillColor="#F48FB1" android:pathData="M26,10 h2 v2 h-2z"/>
+    <!-- 腳 幀2 交替 -->
+    <path android:fillColor="#E0E0E0" android:pathData="M6,16 h4 v4 h-4z"/>
+    <path android:fillColor="#BDBDBD" android:pathData="M6,20 h4 v2 h-4z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M12,18 h4 v4 h-4z"/>
+    <path android:fillColor="#BDBDBD" android:pathData="M12,22 h4 v2 h-4z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M18,16 h4 v4 h-4z"/>
+    <path android:fillColor="#BDBDBD" android:pathData="M18,20 h4 v2 h-4z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M24,18 h4 v4 h-4z"/>
+    <path android:fillColor="#BDBDBD" android:pathData="M24,22 h4 v2 h-4z"/>
+</vector>
